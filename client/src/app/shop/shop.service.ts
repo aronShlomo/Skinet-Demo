@@ -11,7 +11,7 @@ import { ShopParams } from '../shared/models/shopParams';
 })
 export class ShopService {
 
-  baseUrl = "https://localhost:5269/api/";
+  baseUrl = "https://localhost:5002/api/";
 
   constructor(private http: HttpClient) { }
 
